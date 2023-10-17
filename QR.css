@@ -3,26 +3,26 @@ body {
   align-items: center;
   background-color: hsl(210, 17%, 91%);
   display: flex;
+  margin: 0;
   font-family: "Outfit", serif;
   justify-content: center;
   height: 100%;
   min-height: 100vh;
   overflow: hidden;
-  width: 100%;
+  /* width: 100%; */
 }
 .card {
   background-color: rgb(240, 233, 233);
   border-radius: 15px;
   box-shadow: 0 10px 40px hsl(220, 15%, 55%);
-  padding: 4%;
+  padding: 14px;
   top: 25%;
   text-align: center;
   width: 375px;
 }
 #qr {
   border-radius: 5px;
-  height: 375px;
-  width: 375px;
+  width: 91%;
 }
 #logo{
   height: 10%;
