@@ -1,0 +1,26 @@
+@media (max-width: 450px){
+
+    .card{
+        width: 335px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .p{
+        color: hsl(220, 15%, 55%);
+        font-size: 19px;
+        font-weight: 400;
+        padding: 6px;
+    }
+}
+@media (max-width: 400px){
+
+    .card{
+        width: 78%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-inline: auto;
+    }
+}
